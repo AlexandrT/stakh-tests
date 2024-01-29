@@ -4,9 +4,6 @@ import time
 
 
 class Action():
-	def __init__(self):
-		self.xdo = Xdo()
-
 	def run_application(self, app_name):
 		subprocess.Popen([name])
 		time.sleep(2)
